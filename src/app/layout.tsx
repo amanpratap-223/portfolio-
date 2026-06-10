@@ -72,7 +72,7 @@ export default function RootLayout({
         )}
       >
         <Meteors number={30} />
-        <ThemeProvider attribute="class" defaultTheme="light">
+        <ThemeProvider attribute="class" defaultTheme="dark">
           <TooltipProvider delayDuration={0}>
             {children}
             <Navbar />
